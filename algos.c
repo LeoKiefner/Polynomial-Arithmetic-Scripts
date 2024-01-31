@@ -61,3 +61,5 @@ uint32_t product(uint32_t A, uint32_t B) {
 
     return result;
 }
+
+div_result euclidian_div ( uint32_t A , uint32_t B );
