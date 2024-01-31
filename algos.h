@@ -7,4 +7,5 @@
 int degree(uint32_t A);
 void print_poly(uint32_t A);
 uint32_t sum(uint32_t A, uint32_t B);
+uint32_t product ( uint32_t A , uint32_t B );
 #endif // POLYNOME_H

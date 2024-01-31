@@ -55,8 +55,8 @@ build CMakeFiles/M41.dir/main.c.o: C_COMPILER__M41_unscanned_Debug /home/leo/Bur
   OBJECT_DIR = CMakeFiles/M41.dir
   OBJECT_FILE_DIR = CMakeFiles/M41.dir
 
-build CMakeFiles/M41.dir/exercice20.c.o: C_COMPILER__M41_unscanned_Debug /home/leo/Bureau/Université/A2/M41/exercice20.c || cmake_object_order_depends_target_M41
-  DEP_FILE = CMakeFiles/M41.dir/exercice20.c.o.d
+build CMakeFiles/M41.dir/algos.c.o: C_COMPILER__M41_unscanned_Debug /home/leo/Bureau/Université/A2/M41/algos.c || cmake_object_order_depends_target_M41
+  DEP_FILE = CMakeFiles/M41.dir/algos.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/M41.dir
   OBJECT_FILE_DIR = CMakeFiles/M41.dir
@@ -69,7 +69,7 @@ build CMakeFiles/M41.dir/exercice20.c.o: C_COMPILER__M41_unscanned_Debug /home/l
 #############################################
 # Link the executable M41
 
-build M41: C_EXECUTABLE_LINKER__M41_Debug CMakeFiles/M41.dir/main.c.o CMakeFiles/M41.dir/exercice20.c.o
+build M41: C_EXECUTABLE_LINKER__M41_Debug CMakeFiles/M41.dir/main.c.o CMakeFiles/M41.dir/algos.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/M41.dir
   POST_BUILD = :

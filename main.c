@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdint-gcc.h>
-#include "exercice20.h"
+#include "algos.h"
 
 
 int main() {
@@ -10,6 +10,7 @@ int main() {
     int deg = degree(polyA);
     printf("Le degré du polynôme est %d.\n", deg);
     uint32_t sumres = sum(polyA, polyB);
+    uint32_t prores = product(polyA, polyB);
 
     printf("A : ");
     print_poly(polyA);
@@ -17,5 +18,7 @@ int main() {
     print_poly(polyB);
     printf("\nSomme de A et B : ");
     print_poly(sumres);
+    printf("\nProduit de A et B : ");
+    print_poly(prores);
     return 0;
 }
